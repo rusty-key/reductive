@@ -416,11 +416,6 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-bs-platform@^2.2.1:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-2.2.3.tgz#d905ae10a5f3621e6a739041dfa0b58483a2174f"
-  integrity sha1-2QWuEKXzYh5qc5BB36C1hIOiF08=
-
 bs-platform@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-4.0.6.tgz#e7f156c77ad3efafb0c0291b41dcf1b06f93c192"
@@ -1233,11 +1228,11 @@ ignore-walk@^3.0.1:
   dependencies:
     minimatch "^3.0.4"
 
-"immutable-re@https://github.com/facebookincubator/immutable-re.git":
+"immutable-re@https://github.com/rusty-key/immutable-re.git#bs-platform":
   version "0.0.15"
-  resolved "https://github.com/facebookincubator/immutable-re.git#d55f65f7fc638ac17cfdd8064a0401d4cde5aad2"
+  resolved "https://github.com/rusty-key/immutable-re.git#90e42aae95ca6d7791d2c5989c02196fd6b19dcc"
   dependencies:
-    bs-platform "^2.2.1"
+    bs-platform "^4.0.6"
 
 import-local@^2.0.0:
   version "2.0.0"
